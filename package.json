@@ -1,0 +1,19 @@
+{
+  "name": "guessgame",
+  "version": "1.0.0",
+  "description": "This is the game about guess a random number between a maximum number that user enter",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepanshu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}

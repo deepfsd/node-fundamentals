@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+
+    <!-- heading - Guess a number game -->
+
+    <div class="heading">
+        <div class="img&heading">
+            <h1 class="text-center pt-3">
+                <img src="/static/images/logo.png" width="10%" alt="">
+                Guess Game
+            </h1>
+        </div>
+    </div>
+
+    <!-- main - prompt form -->
+    <div class="main">
+
+        <div>
+            <form class="form" method="post" action="/maxNum">
+
+                <input placeholder="Enter Max Number" class="input" type="number" name="maxNum" min="0"
+                    autocomplete="off">
+                <button class="subBtn">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+
+    <%- include('partials/footer.ejs') %>
